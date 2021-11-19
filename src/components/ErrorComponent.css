@@ -1,0 +1,17 @@
+.ErrorComponent {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 32px 16px;
+}
+.err-text {
+    color: crimson;
+}
+.try-again-btn {
+    border: 1px solid #666;
+    padding: 8px 16px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10000px;
+}

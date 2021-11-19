@@ -1,0 +1,42 @@
+.Slider {
+    margin: auto;
+    max-width: 720px;
+}
+
+.btns-ctr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns-ctr button {
+    background-color: white;
+    border: 1px solid #999;
+    padding: 16px;
+    outline: none;
+    border-radius: 10000px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.btns-ctr button:hover {
+    opacity: 0.5;
+}
+.btns-ctr button:active {
+    background-color: #666;
+    border-color: #666;
+    color: white;
+    opacity: 1;
+}
+
+.slides-ctr {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
